@@ -219,7 +219,7 @@ def main():
     test_all_parser = subparsers.add_parser("test-all", help="Test all chips")
     test_all_parser.add_argument("--hdl-path", default="hdl_files",
                                  help="Directory containing HDL files (default: hdl_files)")
-    test_all_parser.add_argument("--test-path", default="tests",
+    test_all_parser.add_argument("--test-path", default="hdl_test_files",
                                  help="Directory containing test files (default: tests)")
 
     # Interactive mode command
